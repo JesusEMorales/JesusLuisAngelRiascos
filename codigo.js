@@ -1,5 +1,5 @@
-let usuarios = [];
-let passes = [];
+let usuarios = ["Luis"];
+let passes = ["1234"];
 
 function guardaruser(){
     usuarioagregado = document.getElementById("userinicio").value;
@@ -28,20 +28,16 @@ function passi(){
 function verificar(){ 
     useri()
     passi()
-    for(let i = 0; i<=usuarios.length; i++){
-        if (userv == usuarios(i)){
-            for(let j = 0; i<= passes.length; i++){
-                if (passv == passes(i)){
-                    alert ("Inicio de sesión válido.");
-                }
-                else{
-                    alert ("Usuario o contraseña inválidos.");
-                }
+        if (userv == usuarios()){
+            if (passv == passes(i)){
+                alert ("Inicio de sesión válido.");
+            }
+            else{
+                alert ("Usuario o contraseña inválidos.");
             }
         }
         else{
             alert ("Usuario o contraseña inválidos.");
         }
 
-    }
 }

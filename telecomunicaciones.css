@@ -59,3 +59,21 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.hijo3{
+    width:50%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 5px solid #8338ec;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hijo4{
+    width:50%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 5px solid #386641;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

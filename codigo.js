@@ -12,8 +12,6 @@ function guardarpass(){
 function guardar(){
     guardaruser()
     guardarpass()
-    usuarios.push(usuarioagregado)
-    passes.push(passagregado)
     alert("Usuario registrado exitosamente.")
 }
 

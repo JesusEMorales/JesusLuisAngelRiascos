@@ -12,12 +12,22 @@ function guardarpass(){
 function guardar(){
     guardaruser()
     guardarpass()
+    usuarios.push(usuarioagregado)
+    passes.push(passagregado)
     alert("Usuario registrado exitosamente.")
 }
 
-function verificar(){ 
+function useri(){
     userv = document.getElementById("usuario").value;
+}
+
+function passi(){
     passv = document.getElementById("pass").value;
+}
+
+function verificar(){ 
+    useri()
+    passi()
     for(let i = 0; i<=usuarios.length; i++){
         if (userv == usuarios(i)){
             for(let j = 0; i<= passes.length; i++){

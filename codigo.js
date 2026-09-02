@@ -1,19 +1,37 @@
-let username = [];
-let password = [];
+let usuarios = [];
+let passes = [];
 
-
-function mostrar(id) {
-    document.getElementById("registrarse").className = "oculto";
-    document.getElementById("ingresar").className = "oculto";
-    document.getElementById(id).className = "visible";
+function guardaruser(){
+    usuarioagregado = document.getElementById("userinicio").value;
 }
 
-function guardar() {
-    nombre = document.getElementById("nombrehtml").value;
-    username.push(nombre);
-
+function guardarpass(){
+    passagregado = document.getElementById("passinicio").value;
 }
-function guardar2() {
-    contrasena = document.getElementById("contrasenahtml").value;
-    password.push(contrasena);
+
+function guardar(){
+    guardaruser()
+    guardarpass()
+    alert("Usuario registrado exitosamente.")
+}
+
+function verificar(){ 
+    userv = document.getElementById("usuario").value;
+    passv = document.getElementById("pass").value;
+    for(let i = 0; i<=usuarios.length; i++){
+        if (userv == usuarios(i)){
+            for(let j = 0; i<= passes.length; i++){
+                if (passv == passes(i)){
+                    alert ("Inicio de sesión válido.");
+                }
+                else{
+                    alert ("Usuario o contraseña inválidos.");
+                }
+            }
+        }
+        else{
+            alert ("Usuario o contraseña inválidos.");
+        }
+
+    }
 }

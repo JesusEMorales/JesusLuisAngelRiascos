@@ -9,37 +9,39 @@
 <body>
     <div class="barrra">
         <div class="barradiv">
-
+            <center><div class="barraborde">
+                <center><img src="img/itecreal.png" href="logo"></center>
+            </div></center>
         </div>
     </div>
     <div class="div1">
         <div class="div1div1">
 
             <h1><center>Crear cuenta</center></h1>
-           <center> <input type="text" placeholder="Correo o usuario" class="place">
+           <center> <input type="text" placeholder="Correo o usuario" class="place" id="userinicio">
             <br>
             <br>
             <br>
-            <input type="password" placeholder="Contraseña" class="place"></center>
+            <input type="password" placeholder="Contraseña" class="place" id="passinicio"></center>
             <br>
             <br>
             <br>
-            <center><button class="boton" id="registrarse">Registrarse</button></center>
+            <center><button class="boton" id="registrarse" onclick="guardar()">Registrarse</button></center>
             <br>
             <br>
             <center><img src="img/pngwing.com (1).png" href="1"></center>
         </div>
         <div class="div1div2">
             <h1><center>Iniciar sesión</center></h1>
-           <center> <input type="text" placeholder="Correo o usuario" class="place">
+           <center> <input type="text" placeholder="Correo o usuario" class="place" id="usuario">
             <br>
             <br>
             <br>
-            <input type="password" placeholder="Contraseña" class="place"></center>
+            <input type="password" placeholder="Contraseña" class="place" id="pass"></center>
             <br>
             <br>
             <br>
-            <center><button class="boton" id="ingresar">Ingresar</button></center>
+            <center><button class="boton" id="ingresar" onclick="verificar()">Ingresar</button></center>
             <br>
             <br>
             <center><img src="img/pngwing.com.png" href="1"></center>

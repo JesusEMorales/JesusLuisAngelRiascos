@@ -7,14 +7,14 @@ h1{
 
 .div1{
     display: flex;
-    gap: 10px;
+    gap: 0.8%;
     margin-top: 1%;
 }
 
 .div1div1{
     width: 100%;
     background-color: #bbd0ff;
-    height: 836px;
+    height: 670px;
     border-radius: 20px;
     border: solid 15px #2066af;
 }
@@ -22,7 +22,7 @@ h1{
 .div1div2{
     width: 100%;
     background-color: #df8080;
-    height: 836px;
+    height: 670px;
     border-radius: 20px;
     border: solid 15px #c41a1a;
 }
@@ -49,20 +49,22 @@ h1{
 }
 
 .div1div1 img{
-    width: 75%;
-    height: 500px;
+    width: 50%;
+    height: 330px;
 }
 
 .div1div2 img{
-    width: 85%;
-    height: 500px;
+    width: 58%;
+    height: 330px;
 }
 
 .barradiv{
-    width: 100%;
+    width: 98.9%;
     height: 130px;
-    background-color: black;
+    background-color: #c41a1a;
     border-radius: 10px;
+    border-radius: 10px;
+    border: solid 7px #c41a1a;
 }
 
 .div1div1 h1{
@@ -103,4 +105,19 @@ h1{
     border: solid 2px #2066af;
     color: #000000;
     font-weight: bolder;
+}
+
+.barraborde{
+    width: 98.9%;
+    height: 95.5px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: solid 7px #2066af;
+}
+
+.barraborde img{
+    width: 18%;
+    height:80px;
+    margin-bottom: 30px;
 }

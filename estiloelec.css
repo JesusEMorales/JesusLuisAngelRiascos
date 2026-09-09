@@ -81,5 +81,162 @@ body {
     font-weight: bolder;
     font-size: 20px;
     padding: 10px;
-    padding-top: 3%;
+    padding-top: 2%;
+}
+
+.pas1{
+  display: flex;
+  gap: 3%;
+  margin-top: 9%;
+}
+
+.pas2{
+  display: flex;
+  gap: 3%;
+  margin-top: 3%;
+}
+
+.pas3{
+  display: flex;
+  gap: 3%;
+  margin-top: 3%;
+}
+
+.pas1div1{
+  border: solid, 7px, #a5be00;
+  background-color: #a5be00;
+  border-radius: 15%;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.pas1div2{
+  border: solid, 7px, #ef476f;
+  background-color: #ef476f;
+  border-radius: 15%;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.pas2div1{
+  border: solid, 7px, #023e8a;
+  background-color: #023e8a;
+  border-radius: 15%;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.pas2div2{
+  border: solid, 7px, #ff6700;
+  background-color: #ff6700;
+  border-radius: 15%;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.pas3div1{
+  border: solid, 7px, #ab3428;
+  background-color: #ab3428;
+  border-radius: 15%;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.pas3div2{
+  border: solid, 7px, #4e148c;
+  background-color: #4e148c;
+  border-radius: 15%;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.pas1div1 p{
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #ffffff;
+}
+
+.pas1div1 img{
+  padding-right: 5%;
+}
+
+.pas1div2 p{
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #ffffff;
+}
+
+.pas1div2 img{
+  padding-right: 5%;
+  padding-top: 4%;
+}
+
+.pas2div1 p{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  color: #ffffff;
+}
+
+.pas2div1 img{
+  padding-right: 5%;
+  padding-top: 4%;
+}
+
+.pas2div2 p{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  color: #ffffff;
+}
+
+.pas2div2 img{
+  padding-right: 5%;
+  padding-top: 4%;
+}
+
+.pas3div1 p{
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #ffffff;
+}
+
+.pas3div1 img{
+  padding-right: 5%;
+  padding-top: 4%;
+}
+
+.pas3div2 p{
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #ffffff;
+}
+
+.pas3div2 img{
+  padding-right: 5%;
+  padding-top: 5%;
 }

@@ -7,7 +7,9 @@
     border-radius: 10px;
     border-radius: 10px;
     border: solid 7px #0077b6;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    
 }
 .container{
     width: 100%;
@@ -63,4 +65,7 @@ body{
     width: 220px;
     height: 170px;
     margin-left: 200px;
+}
+.titule{
+    margin-top: 30px;
 }

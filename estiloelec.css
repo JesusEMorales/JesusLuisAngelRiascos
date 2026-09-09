@@ -35,7 +35,7 @@ body {
 
 .div1{
     width: 98.1%;
-    height: 900px;
+    height: 850px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: solid, 7px, #023e8a;
@@ -69,12 +69,13 @@ body {
 
 .div1div12{
     width: 90%;
-    height: 400px;
+    height: 450px;
     background-color: #023e8a;
     border: solid, 7px, #023e8a;
     border-radius: 10px;
     margin-bottom: 20px;
     color: #ffffff;
+    padding-top: 1%;
 }
 
 .div1div12 p{
@@ -178,6 +179,7 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   color: #ffffff;
+  padding-top: 2%;
 }
 
 .pas1div1 img{
@@ -188,6 +190,7 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   color: #ffffff;
+  padding-top: 1%;
 }
 
 .pas1div2 img{

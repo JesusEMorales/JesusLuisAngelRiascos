@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programación</title>
+    <link rel="stylesheet" href="progra.css">
+    <script src="progra.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
@@ -39,6 +41,24 @@
             </div>
         </div>
     </nav>
+    <center><h1>Programación</h1></center>
+    <div class="ful-img" id="fulImgBox">
+        <img src="imgs/1.jpg" id="fulImg" alt="">
+        <span onclick="ocultarImagenCompleta()">X</span>
+    </div>
+
+    <h1><span>Galería de Imágen</span></h1>
+
+    <div class="img-gallery">
+        <img src="imgs/img1.jpg" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img2.jpeg" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img3.jpeg" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img4.png" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img5.jpeg" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img6.jpeg" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img7.jpeg" onclick="mostrarImagenCompleta(this.src)" alt="">
+        <img src="imgs/img8.jpg" onclick="mostrarImagenCompleta(this.src)" alt="">
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

@@ -1,0 +1,26 @@
+
+
+.barra{
+    width: 100%;
+    height: 130px;
+    background-color: #0077b6;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: solid 7px #0077b6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(to right, #48cae4, #caf0f8);
+}
+.d-blockw-100{
+    width: 100%;
+    height: 650px;
+}
+body{
+    background-color:#0077b6;
+}
+.title2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

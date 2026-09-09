@@ -12,7 +12,7 @@ const iniciarDesplazamiento = () => {
     } else if (carruselElemento.scrollLeft === 0) {
       pasoDesplazamiento = pasoDesplazamiento * -1;
     }
-  }, 50);
+  }, 30);
 };
 
 const detenerDesplazamiento = () => {
